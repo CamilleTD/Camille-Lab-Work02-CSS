@@ -1,0 +1,220 @@
+/*Q2*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ebbc6c;
+}
+
+
+/*Q3*/
+
+.container {
+    width: 950px;
+    max-width: 1300px;
+    margin: 5px auto;
+    background-color: #edd3a8;
+}
+
+
+/* Q4 */
+
+.content {
+    line-height: 1.4em;
+    padding: 10px;
+}
+
+
+/* Q5 */
+
+header,
+nav,
+footer {
+    background-color: #c7a258;
+    color: black;
+}
+
+
+/*Q6*/
+
+nav ul {
+    margin: 0;
+    padding: 5px;
+}
+
+
+/*Q7*/
+
+nav a {
+    display: inline-block;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+
+/*Q8*/
+
+nav a:link {
+    color: #247744;
+}
+
+nav a:visited {
+    color: #dfdcd3;
+}
+
+nav a:hover {
+    color: #e74c3c;
+}
+
+nav a:active {
+    color: #f903a3;
+}
+
+
+/*Q9*/
+
+a {
+    color: #f20000;
+    text-decoration: none;
+}
+
+
+/*Q10*/
+
+h1,
+h2,
+h3 {
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+h2 {
+    color: #34495e;
+}
+
+h3 {
+    color: #7f8c8d;
+}
+
+
+/*Q11*/
+
+.img-centre {
+    display: block;
+    margin: 5px auto;
+    padding: 2px;
+}
+
+
+/*Q12*/
+
+audio,
+video {
+    display: block;
+    margin: 10px auto;
+}
+
+
+/*Q13*/
+
+table {
+    width: 800px;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+
+/*Q14*/
+
+td,
+th {
+    border: 1px solid #000;
+    padding: 2px 5px;
+    background-color: lightgray;
+}
+
+
+/*Q15*/
+
+th,
+tfoot td {
+    text-transform: uppercase;
+    background-color: darkgray;
+    color: white;
+}
+
+
+/*Q16*/
+
+dt {
+    font-weight: bold;
+}
+
+
+/*Q17*/
+
+footer {
+    font-size: 80%;
+    text-align: center;
+    padding: 1px 0;
+}
+
+
+/*Q18*/
+
+iframe {
+    display: block;
+    margin: 10px auto;
+}
+
+
+/*Q19*/
+
+fieldset {
+    width: 500px;
+    margin: 20px auto;
+    border: 2px solid #000;
+    background-color: #f2f2f2;
+}
+
+
+/*Q20*/
+
+legend {
+    font-style: italic;
+    color: white;
+    background-color: #4CAF50;
+    margin: 0 10px;
+    padding: 0 5px;
+    border-radius: 10px;
+    border: 2px solid #4CAF50;
+}
+
+
+/*Q21*/
+
+input[type="submit"] {
+    border: 2px solid #007BFF;
+    padding: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+
+/*Q22*/
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    color: yellow;
+    cursor: pointer;
+}

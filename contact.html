@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <a>
+                <img alt="image alt text" src="./assets/images/su_banner.gif">
+            </a>
+            <ul>
+                <nav>
+                    <a href="./index.html">HOME</a>
+                    <a href="./about.html">ABOUT US</a>
+                    <a href="./services.html">OUR SERVICES</a>
+                    <a href="./contact.html">CONTACT US</a>
+                </nav>
+            </ul>
+        </header>
+        </header>
+        <main class="content">
+            <form action="/submit_form" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="first-name">First Name:* </label>
+                    <input type="text" id="first-name" name="first-name" maxlength="25" required><br><br>
+
+                    <label for="last-name">Last Name:* </label>
+                    <input type="text" id="last-name" name="last-name" maxlength="25" required><br><br>
+
+                    <label for="email">Email:* </label>
+                    <input type="email" id="email" name="email" maxlength="35" required><br><br>
+
+                    <label>Please select the music genre(s) that you like:</label><br>
+                    <input type="checkbox" name="genre" value="classic"> Classic<br>
+                    <input type="checkbox" name="genre" value="jazz"> Jazz<br>
+                    <input type="checkbox" name="genre" value="blues"> Blues<br>
+                    <input type="checkbox" name="genre" value="instrumental"> Instrumental<br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Message</legend>
+                    <label for="how-did-you-hear">How did you hear about us? </label>
+                    <select id="how-did-you-hear" name="how-did-you-hear">
+                    <option value="website" selected>Our Website</option>
+                    <option value="friends">Friends</option>
+                    <option value="tv-adv">TV Adv.</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+
+                    <label>Would you recommend us to your friends?</label><br>
+                    <input type="radio" name="recommend" value="yes" checked> Yes
+                    <input type="radio" name="recommend" value="no"> No
+                    <input type="radio" name="recommend" value="maybe"> Maybe<br><br>
+
+                    <label for="request">Your request: </label><br>
+                    <textarea id="request" name="request" rows="4" cols="50"></textarea><br><br>
+
+                    <input type="checkbox" name="email-updates" checked> Sign me up for email updates<br><br>
+
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+            </br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.5900845454184!2d-79.38706752460213!3d43.67697397912019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34ca577550b5%3A0x7bfa497be225c5d9!2sFour%20Seasons%20Hotel%20Toronto%20Spa!5e0!3m2!1sen!2sca!4v1695066964910!5m2!1sen!2sca"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        </main>
+        <footer>
+            <p>©️2024 Camille Tura--Durand</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
